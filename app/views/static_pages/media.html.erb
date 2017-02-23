@@ -1,0 +1,70 @@
+<% provide(:title, "Media") %>
+
+<h1>Media</h1>
+
+<div>
+	<div class="container">
+
+		<!-- Links to provided services -->
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Services</h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<h3><a href="http://media-server.homenet.org:32400/web">Plex</a></h3>
+				<p>
+					This is a streaming service for all of the Movies and Shows on The Warehouse. It provides easy access to all of the content, regardless of codec, from any device. It can be viewed through the web player with this link.
+				</p>
+			</div>
+
+
+			<div class="col-md-6">
+				<h3><a href="http://media-server.homenet.org:4040">Madsonic</a></h3>
+				<p>
+					This is a music streaming service for all of the Music on The Warehouse. It provides easy access the entire database of music on The Warehouse. It can be used through the link with the provided credentials.
+				</p>
+			</div>
+		</div>
+
+		<br><br>
+
+		<!-- Database Controllers -->
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Databases</h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<h3><%= link_to "Movie Database", '#' %></h3>
+				<p>
+					This is a current database of all of the Movies on The Warehouse. This provides a tabular view of all of the Movies, allowing for easy browsing and searching. Some Movies can be viewed directly through the browser from the database. Others cannot and must be viewed through Plex or a program like <a href="http://www.videolan.org/vlc/index.html">VLC</a>.
+				</p>
+			</div>
+
+			<div class="col-md-6">
+				<h3><%= link_to "Show Database", '#' %></h3>
+				<p>
+					This is a current database of all of the Shows on The Warehouse. This provides a tabular view of all of the Shows, allowing for easy browsing and searching. Some episodes can be viewed directly through the browser from the database. Others cannot and must be viewed through Plex or a program like <a href="http://www.videolan.org/vlc/index.html">VLC</a>.
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<h3><%= link_to "Music Database", '#' %></h3>
+				<p>
+					This is a current database of all of the Music on The Warehouse. Music can be browsed, played and downloaded from here. It does not provide a library or player feature like Madsonic. This is simply a tabular view of the Music for simplified searching and downloading. 
+				</p>
+			</div>
+		</div>
+
+
+
+	</div>
+</div>
+
